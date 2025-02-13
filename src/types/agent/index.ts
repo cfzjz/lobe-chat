@@ -28,7 +28,7 @@ export interface LobeAgentConfig {
   knowledgeBases?: KnowledgeBaseItem[];
   /**
    * 角色所使用的语言模型
-   * @default Pro/deepseek-ai/DeepSeek-R1
+   * @default gpt-4o-mini
    */
   model: string;
   /**
